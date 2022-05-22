@@ -4,7 +4,7 @@ const ftoc = function(numFaren) {
   if (ansCel == 0) {
     return Math.round(ansCel);
   } else {
-    return ansCel.toFixed(1);
+    return Number(ansCel.toFixed(1));
   }
 };
 
@@ -14,7 +14,7 @@ const ctof = function(numCel) {
   if (ansFaren == 0) {
     return Math.round(ansFaren);
   } else {
-    return ansFaren.toFixed(1);
+    return Number(ansFaren.toFixed(1));
   }
 };
 
